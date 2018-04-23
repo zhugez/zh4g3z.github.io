@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="post">
+ <h1>{{ page.title }}</h1>
+
+  <div class="post-categories">
+Thể loại:  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/theloai/{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+ </div>
+  
+ <div class="entry">
+    {{ content }}
+ </div>
+
+ <div class="date">
+    Viết vào {{ page.date | date: "%B %e, %Y" }} 
+  </div>
+
+  
+  {% include disqus.html %}
+</article>
