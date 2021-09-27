@@ -1,4 +1,4 @@
-title: Your awesome title
+title: Zhuge's World
 author:
   name: GitHub User
   email: your-email@domain.com
@@ -16,16 +16,16 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    #twitter: jekyllrb
+    github:  ZhugeZ
     # devto: jekyll
     # dribbble: jekyll
-    # facebook: jekyll
+    facebook: Ly Ngoc Vu
     # flickr:   jekyll
-    # instagram: jekyll
+    instagram: zyueyingz
     # linkedin: jekyll
     # pinterest: jekyll
-    # youtube: jekyll
+    youtube: ZhugeZ
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
     # telegram: jekyll
